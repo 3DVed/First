@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<title>Page title</title>
+				<style type="text/css">
+								body {
+								margin: 0;
+								padding: 0;
+												background-image: linear-gradient(to right, #3d3d3d, #e0e0e0, #666666);
+								}
+								#round {
+								      border: 5px inlet;
+								      border-color: #7fffff;
+								      box-shadow: 0 5px 20px #6afff5;
+												border-radius: 20px;
+								}
+							.align {
+								text-align: center;
+								}
+								.box {
+								      text-align: center;
+												background-color: transparent;
+												padding: 100px;
+												margin-left: 210px;
+												margin-top: 50px;
+												position: static;
+												width: 350px;
+												height: 500px;
+												border-radius: 20px;
+												border: 5px solid #6af6ff;
+												box-shadow: 15px 15px;
+												
+												
+								}
+								
+								#name {
+								      border: 6px solid #ffa96a;
+								      box-shadow: 0 0 10px #ffa96a;
+												border-radius: 20px;
+												position: static;
+												height: 40px;
+												padding: 0px;
+												background-color: transparent;
+								}
+								#select {
+												position: static;
+												height: 40px;
+												width: 200px;
+												border: 5px solid;
+												border-radius: 20px;
+												background-color: #f0f0f0;
+								}
+								#but {
+												position: static;
+												width: 300px;
+												background-color: transparent;
+												border: 3px inlet #f0c562;
+												border-radius: 10px;
+								}
+								.dd {
+												position: relative;
+												display: inline-block;
+								}
+								.dd-content {
+												position: absolute;
+												display: none;
+								}
+								.dd:hover > .dd-content {
+												display: block;
+								}
+								.nav-bar a {
+         text-decoration: none;
+         color: black;
+         display: block;
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+         float: left;
+         width: 24.9%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+         border-right: 1px solid #333; /* for the borders */
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+				</style>
+</head>
+<body>
+				<div class="nav-bar">
+								<ul>
+								<li><a href="#" class="active">Home</a></li>
+								<li><a href="support-file.html">Page2</a></li>
+								<li><a href="#">Ping</a></li>
+								<li><a href="#">Pong</a></li>
+								</ul>
+				</div>
+				<br><br><br><br><br><br>
+				<h3>
+				<div class="align">
+								<button id="round"><font size="30">
+												<b>WELCOME</b>
+								</font>
+    						</button>
+				</div>
+				<div class="box">
+								<font size="15"><tt>
+								<b>hello user</b></tt>
+								</font>
+								<br>
+								<br>
+								<input id="name" type="username" value="Enter your name" size="40">
+								<br>
+								<br>
+								<br>
+								<h4><tt>Choose your category from the drop-down menu given below</tt></h2>
+								<select id="select">
+												<option>Choose your topic [null]</option>
+												<option>Tech</option>
+												<option>Sci</option>
+												<option>Programming</option>
+								</select>
+								<br>
+								<br>
+								
+							     	<div class="dd">
+							     		<span>
+												<button id="but">
+																CLICK ON ME !
+												</button>
+												</span>
+												<div class="dd-content">Hello users, thanks for using my website, more features coming soon !!</div>
+							     	</div>
+							     	<br>
+							     	<br>
+							     	<br>
+							     	<h3>
+								<tt>
+												Here you will find some short and effective info. about stuffs related to programming, the work is going on other features that might come soon.
+								</tt>
+				</h3>
+			 
+			 <p align="center"><h3> _Vedant</h3></p>
+			 </div>
+</body>
+</html>
